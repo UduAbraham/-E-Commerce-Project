@@ -7,13 +7,10 @@ import WomanWearing from "./assets/images/attractive-woman-wearing-hat-posing-bl
 
 function Woman(){
     return(
-       <Box ml={{}}>
-           
-
-
+       <Box ml={{base:"-rem",md:"",lg:""}}>
 
           <Box   w={{base:"20rem", md:"19rem", lg:"30.1rem"}} h={{base:"25rem", md:"25rem", lg:"40rem"}} 
-           bg="black" ml={{base:"3rem", md:"1rem", lg:"5.3rem"}} mt={{base:"",md:"16rem",lg:"7rem"}}>
+           bg="black" ml={{base:"0.5rem", md:"1rem", lg:"5.3rem"}} mt={{base:"",md:"16rem",lg:"7rem"}}>
               <Box ml={{base:"",md:"1rem",lg:"rem"}} pt={{base:"9rem",md:"8rem", lg:"14rem"}}>
                        <Box>
                           <Image src={Playstation} alt="Station"  ml={{base:"1rem",md:"-1rem",lg:"rem"}}
@@ -37,7 +34,7 @@ function Woman(){
                  </Box>
           </Box>
 
-          <Box w={{base:"28rem", md:"25rem", lg:"53.5rem"}} h={{base:"9rem", md:"11rem", lg:"18rem"}} 
+          <Box w={{base:"25rem", md:"25rem", lg:"53.5rem"}} h={{base:"9rem", md:"11rem", lg:"18rem"}} 
            bg="black" ml={{base:".55rem",md:"21.5rem",lg:"39rem"}} mt={{base:"1.5rem",md:"-25.7rem",lg:"-40.5rem"}}>
               <Box>
                       <Image src={WomanWearing} alt="Women_Cloth" ml={{base:"16rem",md:"13.9rem",lg:"28.125rem"}}
@@ -62,7 +59,7 @@ function Woman(){
 
           <Box >
             <HStack  ml={{base:"2.55rem",md:"23.5rem",lg:"41rem"}} mt={{base:"-2.4rem",md:"rem",lg:"0.1rem"}}>
-              <Box w={{base:"13rem", md:"11.5rem", lg:"25.1rem"}} h={{base:"10rem", md:"12.6rem", lg:"18rem"}} 
+              <Box w={{base:"11.5rem", md:"11.5rem", lg:"25.1rem"}} h={{base:"10rem", md:"12.6rem", lg:"18rem"}} 
                bg="black" mt="4rem" ml="-2rem" >
 
                 <Box ml={{base:"",md:"",lg:"5.625rem"}} mt="2.6rem">
@@ -70,7 +67,7 @@ function Woman(){
                    mt={{base:"",md:"rem",lg:"rem"}}/>
 
                         <Box>
-                                  <VStack ml={{base:"",md:"",lg:"-15.688rem"}} mt="-5rem" color="whitesmoke">
+                                  <VStack ml={{base:"",md:"",lg:"-15.688rem"}} mt="-6rem" color="whitesmoke">
                                      <Text fontWeight="bold" ml={{base:"-4.6rem",md:"-3.3rem",lg:"2.5rem"}} fontSize={{base:"",md:"1rem",lg:"1.25rem"}}>Speakers</Text>
                                       <Text ml={{base:"1rem",md:"2rem",lg:"7.188rem"}} fontSize="0.813rem">Amazon Wireless Speakers </Text>
                                       <Link ml={{base:"-4rem",md:"-3.5rem",lg:"1.563rem"}} textDecoration="underline" >Shope Now</Link>
@@ -79,7 +76,7 @@ function Woman(){
                 </Box>
               </Box>
 
-              <Box w={{base:"13rem", md:"11.5rem", lg:"25.1rem"}} h={{base:"10rem", md:"12.6rem", lg:"18rem"}} 
+              <Box w={{base:"11.5rem", md:"11.5rem", lg:"25.1rem"}} h={{base:"10rem", md:"12.6rem", lg:"18rem"}} 
                bg="black" mt="4rem" ml={{base:"1.5rem",md:"rem",lg:"3rem"}} >
                  <Box ml={{base:"",md:"",lg:"5.625rem"}} mt={{base:"2.5rem",md:"rem",lg:"2.5rem"}}>
 

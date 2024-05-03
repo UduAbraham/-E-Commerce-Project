@@ -6,7 +6,7 @@ import Ser from "./assets/images/Ser.png"
 function ExploreNext(){
     return(
         <Box>
-            <HStack mt="10.5rem" ml="6.25rem" mb="1.875rem" mr="6.25rem" justifyContent="space-around">
+            <HStack mt="10.5rem" ml={{base:"-2.8rem",md:"",lg:"6.25rem"}} mb="1.875rem" mr="6.25rem" justifyContent="space-around">
                 <Box ml={{base:"4rem",md:"",lg:"5rem"}}>
                     <Box>
                         <Image src={Icon} ml={{base:"rem",md:"2rem",lg:"5rem"}}/>

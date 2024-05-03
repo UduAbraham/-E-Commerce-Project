@@ -15,7 +15,7 @@ import { Wrap, WrapItem } from '@chakra-ui/react'
 function Footer () {
     return(
         <Box>
-            <Box bg="black" h={{base:"80vh",md:"50vh", lg:"50vh",}}  mt="6.875rem" color="white">
+            <Box bg="black" h={{base:"100vh",md:"50vh", lg:"50vh",}}  mt="6.875rem" color="white">
 
                 <Box pt="3.375rem" ml={{base:".7rem", md:"1rem",lg:"3rem"}}>
                     <Text fontSize={{base:"rem",md:"1.25rem",lg:"1.25rem"}} fontWeight="bold">
@@ -47,7 +47,7 @@ function Footer () {
                     <Text mt="1.75rem">+88015-88888-9999</Text>
                 </Box>
 
-                <Box mt="-13.438rem" ml={{base:"27rem", md:"29rem",lg:"45.75rem"}}>
+                <Box mt={{base:"3.5rem",md:"",lg:"-13.438rem"}} ml={{base:"1rem", md:"29rem",lg:"45.75rem"}}>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"1.25rem"}} fontWeight="bold">
                             Account
                         </Text>
@@ -72,8 +72,8 @@ function Footer () {
                         </Box>
                 </Box>
 
-                <Box  mt={{base:"2rem",md:"-15rem",lg:"-16.025rem"}} 
-                ml={{base:"1rem", md:"38rem",lg:"62rem"}}>
+                <Box  mt={{base:"-15rem",md:"-15rem",lg:"-16.025rem"}} 
+                ml={{base:"15rem", md:"38rem",lg:"62rem"}}>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"rem"}} fontWeight="bold">
                             Quick Link
                         </Text>
@@ -95,8 +95,8 @@ function Footer () {
 
                 </Box>
 
-                <Box mt={{base:"-13rem",md:"-13rem",lg:"-13rem"}} 
-                ml={{base:"rem", md:"38rem",lg:"60rem"}}>
+                <Box mt={{base:"6rem",md:"-13rem",lg:"-13rem"}} 
+                ml={{base:"-20rem", md:"38rem",lg:"60rem"}}>
                     <VStack>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"1.25rem"}} fontWeight="bold" ml={{base:"",md:"7rem",lg:"10rem"}}>
                             Download App

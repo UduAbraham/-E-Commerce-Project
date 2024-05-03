@@ -3,7 +3,7 @@ import BoomBox from "./assets/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png"
 
 function Category() {
     return(
-       <Box>
+       <Box ml={{base:"-2rem",md:"",lg:""}} mt={{base:"-6rem",md:"",lg:""}}>
           <Box bg="black" w={{base:"25rem",md:"35rem", lg:"70rem"}} h={{base:"12rem",md:"15rem", lg:"28.25rem"}}
           ml={{base:"3rem",md:"8rem", lg:"16.625rem"}} mt="11.25rem" mb="1.25rem">
 

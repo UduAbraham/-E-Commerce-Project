@@ -3,7 +3,7 @@ import { Box, Table, TableContainer, Tbody, Td, Thead, Tr, HStack, Wrap, WrapIte
 
  function Grid () {
     return(
-         <Box ml={{base:"1rem",md:"", lg:""}} mt={{base:"7rem",md:"", lg:""}}>
+         <Box ml={{base:"1rem",md:"", lg:""}} mt={{base:"5rem",md:"", lg:""}}>
         
             <Box mt={{base:"",md:"5.25rem",lg:"6.25rem"}} w={{base:"0.625rem", md:"0.827rem", lg:"1.125rem"}}
              ml={{base:"8rem",md:"4.25rem", lg:"6.25rem"}}
@@ -17,11 +17,12 @@ import { Box, Table, TableContainer, Tbody, Td, Thead, Tr, HStack, Wrap, WrapIte
                    <Text >Today's</Text>
             </Box>
               
-              <HStack>
+              <HStack mt={{base:"-5rem",md:"", lg:""}}>
+        
                     <Box fontSize={{lg:"1.875rem"}} fontWeight="bold" ml={{base:"", md:"5rem",lg:"6.25rem"}} >
                         <Text>Flash Sales</Text>
                     </Box>
-                    <Box ml={{base:"", md:"6.5rem",lg:"12.5rem"}}>
+                    <Box ml={{base:"-8rem", md:"6.5rem",lg:"12.5rem"}} mt={{base:"8rem",md:"",lg:""}}>
                             <TableContainer >
                                 <Table>
                                     <Thead>
@@ -48,8 +49,8 @@ import { Box, Table, TableContainer, Tbody, Td, Thead, Tr, HStack, Wrap, WrapIte
                     </Box>
                     <Spacer/>
 
-                    <Box mr="10.625rem">
-                        <Wrap>
+                    <Box mr="10.625rem" >
+                        <Wrap ml={{base:"-14rem",md:"",lg:""}}>
                         <WrapItem border="0.063rem" h={{base:"", md:"",lg:"1.825rem"}} w={{base:"", md:"",lg:"1.825rem"}} bg="gray.100" 
                         borderRadius={{base:"", md:"",lg:"2.5rem"}} 
                         borderColor="gray.100"><Icon as={ArrowBackIcon} m="0.313rem" boxSize={{md:"",lg:"1.25rem"}}/>  </WrapItem>

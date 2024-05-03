@@ -15,7 +15,7 @@ function CardBox () {
     <Box m="1.25rem" mt="3rem">
          
           <SimpleGrid p="0.25rem" spacing={200} minChildWidth={{base:"", md:"",lg:"1.25rem"}}
-           m="1.25rem" ml={{base:"4rem", md:"",lg:"2.5rem"}} mr={{base:"", md:"",lg:"5.5rem"}} 
+           m="1.25rem" ml={{base:"-0.3rem", md:"",lg:"2.5rem"}} mr={{base:"", md:"",lg:"5.5rem"}} 
           >
               <Box mt={{base:"",md:"2rem"}}>
                         <Box bg="gray.100" maxW="md" w={{base:"16rem", md:"32rem",lg:"16.635rem"}} 

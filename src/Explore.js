@@ -19,8 +19,8 @@ import { Button, } from '@chakra-ui/react'
 
 function Explore(){
     return(
-        <Box>
-              <Box mt="6.25rem" w="1.125rem" ml="6.25rem"
+        <Box ml={{base:"-2.5rem",md:"",lg:""}}>
+            <Box mt="6.25rem" w="1.125rem" ml="6.25rem"
                     h="2.125rem" border="0.063"  borderColor="red.600" bg="red.600"
                     borderRadius="0.188rem"
               >
