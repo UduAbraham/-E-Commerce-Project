@@ -10,7 +10,7 @@ import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 function Grid(){
     return(
       <Box ml={{base:"rem",md:"",lg:""}}>
-          <Box mt="6.25rem" w={{base:"", md:"", lg:"1.1 25rem"}} ml={{base:"", md:"3rem", lg:"6.25rem"}}
+          <Box mt="6.25rem" w={{base:"", md:"", lg:"1.125rem"}} ml={{base:"1rem", md:"3rem", lg:"6.25rem"}}
                     h={{base:"", md:"", lg:"2.125rem"}} border="0.063rem"  borderColor="red.600" bg="red.600"
                     borderRadius="0.183rem"
                     >

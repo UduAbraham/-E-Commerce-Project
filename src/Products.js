@@ -11,7 +11,7 @@ import BookSheff from "./assets/images/aU-unsplash 1.png"
 
 function Product(){
     return(
-        <Box ml={{base:"-4.5rem",md:"",lg:""}}>
+        <Box ml={{base:"-4.5rem",md:"",lg:"2rem"}}>
             <Box mt={{base:"6.25rem",md:"", lg:""}} w="1.125rem" ml={{base:"6.25rem",md:"", lg:""}}
                     h="2.125rem" border="0.063rem"  borderColor="red.600" bg="red.600"
                     borderRadius="0.188rem"

@@ -6,8 +6,8 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 function Iphone() {
   return (
         <Box bg="black" w={{base:"16.5rem",md:"35rem", lg:"46.875rem"}} 
-            h={{base:"11rem", md:"16rem",lg:"18.125rem"}} ml={{base:"1.5rem", md:"20rem", lg:"34.375rem"}}
-            mt={{base:"5rem",md:"-23rem", lg:"-23rem"}}>
+            h={{base:"11rem", md:"16rem",lg:"18.525rem"}} ml={{base:"1.5rem", md:"20rem", lg:"34.375rem"}}
+            mt={{base:"5rem",md:"-23rem", lg:"-17.5rem"}}>
                 <Box  p="2.5rem"color="white"  >
                     <HStack mt={{base:"-2rem", md:"-1.5rem", lg:"-1.5rem"}} ml={{base:"-2rem", md:"-.8rem"}}
                     >

@@ -47,7 +47,7 @@ function Footer () {
                     <Text mt="1.75rem">+88015-88888-9999</Text>
                 </Box>
 
-                <Box mt={{base:"3.5rem",md:"",lg:"-13.438rem"}} ml={{base:"1rem", md:"29rem",lg:"45.75rem"}}>
+                <Box mt={{base:"3.5rem",md:"-13rem",lg:"-13.438rem"}} ml={{base:"1rem", md:"29rem",lg:"45.75rem"}}>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"1.25rem"}} fontWeight="bold">
                             Account
                         </Text>
@@ -72,7 +72,7 @@ function Footer () {
                         </Box>
                 </Box>
 
-                <Box  mt={{base:"-15rem",md:"-15rem",lg:"-16.025rem"}} 
+                <Box  mt={{base:"-15rem",md:"-15.5rem",lg:"-16.025rem"}} 
                 ml={{base:"15rem", md:"38rem",lg:"62rem"}}>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"rem"}} fontWeight="bold">
                             Quick Link
@@ -95,8 +95,8 @@ function Footer () {
 
                 </Box>
 
-                <Box mt={{base:"6rem",md:"-13rem",lg:"-13rem"}} 
-                ml={{base:"-20rem", md:"38rem",lg:"60rem"}}>
+                <Box mt={{base:"2rem",md:"-13rem",lg:"-13rem"}} 
+                ml={{base:"-06rem", md:"38rem",lg:"60rem"}}>
                     <VStack>
                         <Text fontSize={{base:"rem",md:"1.25rem",lg:"1.25rem"}} fontWeight="bold" ml={{base:"",md:"7rem",lg:"10rem"}}>
                             Download App
@@ -126,7 +126,8 @@ function Footer () {
                 </Box>
 
                   
-                    <Box bg="gray.800" w={{base:"", md:"70rem",lg:"103.75rem"}} h="0.038rem"  mt={{base:"2rem",md:"2rem",lg:"3.375rem"}}>
+                    <Box bg="gray.800" w={{base:"", md:"70rem",lg:"103.75rem"}} h="0.038rem" 
+                     mt={{base:"2rem",md:"2rem",lg:"3.375rem"}}>
              .
             </Box>
                     <Box mt={{base:"2rem",md:"2.5rem",lg:"0.89rem"}}>

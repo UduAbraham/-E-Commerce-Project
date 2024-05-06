@@ -19,7 +19,7 @@ import { Button, } from '@chakra-ui/react'
 
 function Explore(){
     return(
-        <Box ml={{base:"-2.5rem",md:"",lg:""}}>
+        <Box ml={{base:"-2.5rem",md:"",lg:"3rem"}}>
             <Box mt="6.25rem" w="1.125rem" ml="6.25rem"
                     h="2.125rem" border="0.063"  borderColor="red.600" bg="red.600"
                     borderRadius="0.188rem"
@@ -50,7 +50,7 @@ function Explore(){
                     
                     <Box ml={{base:"-2rem", md:"",  lg:""}}>
 
-                            <SimpleGrid p="0.25rem" spacing={100} minChildWidth={{base:"16.625rem",md:"", lg:""}} m="1.25rem" ml="5.625rem" 
+                            <SimpleGrid p="0.25rem" spacing={20} minChildWidth={{base:"16.625rem",md:"", lg:""}} m="1.25rem" ml="5.625rem" 
                             mr="5.525rem">
                                 <Box>
                                     <Box bg="gray.100" maxW="md" w={{base:"16.625rem",md:"", lg:""}} h={{base:"15.25rem",md:"", lg:""}}  >
@@ -146,7 +146,7 @@ function Explore(){
                                 
                           <Box ml={{base:"-2rem", md:"",  lg:""}}>
 
-                                        <SimpleGrid p="4px" spacing={25} minChildWidth={{base:"16.625rem",md:"", lg:""}} m="1.25rem" 
+                                        <SimpleGrid p="4px" spacing={2} minChildWidth={{base:"16.625rem",md:"", lg:""}} m="1.25rem" 
                                         ml="5.675rem" mr="5.565">
 
                                 <Box>

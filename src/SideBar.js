@@ -15,7 +15,8 @@ function SideBar () {
             <Box mt="0.5rem">Grocaries & Pets</Box>
             <Box mt="0.5rem">Health & Beauty</Box>
 
-            <Box bg="gray.200" w="0.038rem" h="20.5rem" ml={{base:"12rem", md:"16rem",lg:"17rem"}} mt={{base:"-20rem", md:"-15rem"}}>
+            <Box bg="gray.200" w="0.038rem" h="20.5rem" ml={{base:"12rem", md:"16rem",lg:"17rem"}} 
+            mt={{base:"-20rem",md:"", lg:"-20rem"}}>
                        .
             </Box>
        </Box>

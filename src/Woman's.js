@@ -7,7 +7,7 @@ import WomanWearing from "./assets/images/attractive-woman-wearing-hat-posing-bl
 
 function Woman(){
     return(
-       <Box ml={{base:"-rem",md:"",lg:""}}>
+       <Box ml={{base:"-rem",md:"",lg:"10rem"}}>
 
           <Box   w={{base:"20rem", md:"19rem", lg:"30.1rem"}} h={{base:"25rem", md:"25rem", lg:"40rem"}} 
            bg="black" ml={{base:"0.5rem", md:"1rem", lg:"5.3rem"}} mt={{base:"",md:"16rem",lg:"7rem"}}>
